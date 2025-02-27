@@ -1,44 +1,10 @@
 System.out.println("Hello, World!");
-x
-x + 5;
-x
-x = x + 10;
-x
-println("your name here!");
-println("nathan");
-while (i <= 10) {
-    System.out.println(i);
-    i++;
-}
-printNumbers();
-printNumbers(5);
-printNumbers(10);
-printNumbers(20);
-sumNumbers(5);
-sumNumbers(11);
-sumNumbers(23);
-sumNumbers(5683);
-sumNumbers(106839);
-sumNumbers(5);
-sumNumbers(10);
-sumNumbers(20);
-sumNumbers(106839);
-sumNumbersTo10();
 System.out.println("Hello, World!");
-x
-x + 5;
-x
-x = x + 10;
-x
 void println(String s) {
     System.out.println(s);
 }
 println("your name here!");
 println("nathan");
-while (i <= 10) {
-    System.out.println(i);
-    i++;
-}
 void printNumbers() {
     int i = 1;
     while (i <= 10) {
@@ -57,15 +23,6 @@ void printNumbers(int n) {
 printNumbers(5);
 printNumbers(10);
 printNumbers(20);
-sumNumbers(5);
-sumNumbers(11);
-sumNumbers(23);
-sumNumbers(5683);
-sumNumbers(106839);
-sumNumbers(5);
-sumNumbers(10);
-sumNumbers(20);
-sumNumbers(106839);
 int sumNumbers(int n) {
     int sum = 0;
     for (int i = 1; i <= n; i++) {
@@ -97,10 +54,6 @@ int subtractTwoNumbers(int x, int y) {
 divideTwoNumbers(45, 15);
 multiplyTwoNumbers(3, 5);
 subtractTwoNumbers(20,5);
-isEven(5);
-isEven(5);
-isEven(5);
-isOdd(5);
 var x = 5;
 var y = 2;
 x % y;
@@ -123,8 +76,6 @@ boolean isEven(int x) {
         return false;
     }
 }
-printOddEven();
-printOddEven();
 void printOddEven() {
     int i = 1;
     while (i <= 10) {
@@ -136,3 +87,5 @@ void printOddEven() {
         i++;
     }
 }
+sumNumbers(5);
+sumNumbersTo10();
